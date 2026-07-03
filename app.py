@@ -313,8 +313,8 @@ with st.sidebar:
     st.header("🔑 Credentials")
     kobo_url = st.text_input("Server URL (KPI)", value="https://kf.kobotoolbox.org")
     kobo_kc_url = st.text_input("Legacy Server URL (KoBoCAT)", value="https://kc.kobotoolbox.org")
-    api_token = st.text_input("API Token", value="3dcb662e752f86d9eb1fdefc6f2c3c5aab1a1222", type="password")
-    form_uid = st.text_input("Form Asset UID", value="agQcFGADFrfHrgb6bJN3WN")
+    api_token = st.text_input("API Token", placeholder="input your API", type="password")
+    form_uid = st.text_input("Form Asset UID", placeholder="Input your Form UID")
     
     st.markdown("---")
     st.header("🔧 Diagnostics")
